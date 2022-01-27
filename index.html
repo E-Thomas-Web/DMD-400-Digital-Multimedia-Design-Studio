@@ -14,158 +14,17 @@
         &nbsp;
         <h1>Testing Git</h1>
         <script type="application/processing">
-        //I kept the x and y variables for flight, and added a and b variables for the laser. 
-int x = 150;
-int y = 300;
-int a = 150;
-int b = 300;
-boolean activate = false;
-boolean laser = false;
+            int a = 5;
 
+            void setup(){
+            size(200,200);
+            }
+            void draw(){
+            background(50);
+            circle(a, 50, 50);
+            a++;
+            }
 
-void setup() {
-size(440, 720);
-background(0);
-}
-
-void draw() {
-  
-// So it doesn't fly off screen.
-
-if (y < 40) {
-  y = y + 2;
-}
-if (b < 40) {
-  b = b + 2;
-}
-
-//So the laser oscillates
-
-if (a > 440) {
-  a = a - 10;
-  b = b - 6;
-}
-
-//Water
-
-fill(#0A095D);
-rect(0, 540, 440, 720);
-
-//Legs
-fill(#838383);
-triangle(x + 90, y + 100, x + 100, y + 260, x +  110, y +  80);
-fill(#838383);
-triangle(x + 50, y +  110,x +  60, y +  250, x +  70, y +  110);
-fill(#838383);
-triangle(x + 10, y + 80,x +  20, y +  260, x + 30, y +  100);
-
-//Eye with Laser
-
-if (laser) {
-  
-  fill(#E30000);
-beginShape();
-vertex(x + 50, y +  60);
-vertex(x + 70, y +  60);
-vertex(x + 80, y +  70);
-vertex(x + 80, y +  90);
-vertex(x + 70, y +  100);
-vertex(x + 50, y +  100);
-vertex(x + 40, y +  90);
-vertex(x + 40, y +  70);
-endShape();
-
-beginShape();
-fill(#E30000);
-beginShape();
-vertex(a + 50, b +  60);
-vertex(a + 70, b +  60);
-vertex(a + 80, b +  70);
-vertex(a + 80, b +  90);
-vertex(a + 70, b +  100);
-vertex(a + 50, b +  100);
-vertex(a + 40, b +  90);
-vertex(x + 40, y +  70);
-endShape();
-
-b = b + 6;
-a = a + 4;
-a++;
-b++;
-
-} else {
-  
-//Eye without Laser
-
-fill(#2D83DE);
-beginShape();
-vertex(x + 50, y +  60);
-vertex(x + 70, y +  60);
-vertex(x + 80, y +  70);
-vertex(x + 80, y +  90);
-vertex(x + 70, y +  100);
-vertex(x + 50, y +  100);
-vertex(x + 40, y +  90);
-vertex(x + 40, y +  70);
-endShape();
-}
-
-fill(0);
-rect(x + 50, y +  70, 20, 20);
-
-fill(250);
-rect(x + 60, y +  70, 10, 10);
-
-beginShape();
-vertex(x + 70, y +  60);
-vertex(x + 100, y +  80);
-vertex(x + 70, y +  100);
-vertex(x + 80, y +  90);
-vertex(x + 80, y +  70);
-endShape();
-
-beginShape();
-vertex(x + 50, y +  60);
-vertex(x + 20, y +  80);
-vertex(x + 50, y +  100);
-vertex(x + 40, y +  90);
-vertex(x + 40, y +  70);
-endShape();
-
-//Eyebrow type structure
-
-fill(#838383);
-beginShape();
-vertex(x + 10, y +  80);
-vertex(x + 40, y +  40);
-vertex(x + 80, y +  40);
-vertex(x + 110, y +  80);
-vertex(x + 80, y +  50);
-vertex(x + 40, y +  50);
-endShape();
-
-//To fly
-if (activate) {
-  y = y - 2;
-  b = b - 2;
-}
-//Pyramids
-fill(#838383);
-triangle(x + 10, y +  70,x +  30, y +  40, x +  -20, y +  20);
-fill(#838383);
-triangle(x + 40, y +  30,x +  80, y +  30, x +  60, y +  -30);
-fill(#838383);
-triangle(x + 90,  y + 40,x +  110,  y + 70, x +  140, y +  20);
-
-//To Fire Laser
-}
-void keyPressed() {
-  laser = !laser;
-}
-//To Start Flying
-void mousePressed() {
-  activate = !activate;
-}
-</script>
+        </script>
     </body>
 </html>
