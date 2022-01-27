@@ -1,7 +1,7 @@
 body { font-family: 'Barlow', sans-serif; }
 @keyframes test{
     from {background-color: white;}
-    to {background-color: green;}
+    to {background-color: rgb(139, 224, 139);}
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
     height: 100%;
     background-color: white;
     animation-name: test;
-    animation-duration: 5s;
-    animation-iteration-count: 4;
+    animation-duration: 2s;
+    animation-iteration-count: 40;
     animation-direction: alternate;
 }
