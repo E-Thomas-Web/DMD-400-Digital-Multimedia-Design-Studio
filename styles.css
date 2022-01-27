@@ -1,7 +1,7 @@
 body { font-family: 'Barlow', sans-serif; }
 @keyframes test{
-    from {size: 100%;}
-    to {size: 300%;}
+    from {background-color: white;}
+    to {background-color: green;}
 }
 
 h1 {
