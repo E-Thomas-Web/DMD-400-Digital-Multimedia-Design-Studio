@@ -42,6 +42,11 @@ void draw() {
           x1--;
           x1--;
           g--;
+          
+         if (keyCode == SHIFT){
+           x1 = 0;
+           y1 = 0;
+         }
         }
       }
 }
