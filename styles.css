@@ -35,8 +35,9 @@ body { font-family: 'Barlow', sans-serif; }
 }
 
 @keyframes testing3{
-    from {background-color: white;}
-    to {background-color: rgb(194, 47, 47);}
+    0% {background-color: white;}
+    1% {background-color: rgb(194, 47, 47);}
+    100% {background-color: rgb(194, 47, 47);}
 }
 
 .red {
@@ -59,9 +60,10 @@ body { font-family: 'Barlow', sans-serif; }
 .car {
     background-color: white;
     animation-name: testing4;
-    animation-duration: 5s;
+    animation-duration: 17s;
     animation-iteration-count: 1;
     animation-delay: 0s;
+
 
     
 }
