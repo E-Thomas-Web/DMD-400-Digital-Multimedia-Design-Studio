@@ -60,7 +60,7 @@ body { font-family: 'Barlow', sans-serif; }
 .car {
     background-color: white;
     animation-name: testing4;
-    animation-duration: 17s;
+    animation-duration: 8s;
     animation-iteration-count: 1;
     animation-delay: 0s;
 
