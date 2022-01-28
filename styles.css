@@ -5,7 +5,7 @@ body { font-family: 'Barlow', sans-serif; }
 }
 
 .green {
-    width: 100%;
+    width: 1%;
     height: 100%;
     background-color: white;
     animation-name: testing1;
@@ -22,7 +22,7 @@ body { font-family: 'Barlow', sans-serif; }
 }
 
 .yellow {
-    width: 100%;
+    width: 1%;
     height: 100%;
     background-color: white;
     animation-name: testing2;
@@ -40,7 +40,7 @@ body { font-family: 'Barlow', sans-serif; }
 }
 
 .red {
-    width: 100%;
+    width: 1%;
     height: 100%;
     background-color: white;
     animation-name: testing3;
