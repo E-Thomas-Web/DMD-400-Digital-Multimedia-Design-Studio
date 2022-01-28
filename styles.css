@@ -3,14 +3,53 @@ body { font-family: 'Barlow', sans-serif; }
     from {background-color: white;}
     to {background-color: rgb(139, 224, 139);}
 }
-/*
+
 h1 {
     width: 100%;
     height: 100%;
     background-color: white;
     animation-name: test;
     animation-duration: 2s;
-    animation-iteration-count: 40;
-    animation-direction: alternate;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+
+    
 }
-*/
+
+@keyframes test{
+    from {background-color: white;}
+    to {background-color: rgb(223, 220, 68);}
+}
+
+h2 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+    animation-delay: 1s;
+
+    
+}
+
+@keyframes test{
+    from {background-color: white;}
+    to {background-color: rgb(194, 47, 47);}
+}
+
+p {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+    animation-delay: 2s;
+
+    
+}
+
+
