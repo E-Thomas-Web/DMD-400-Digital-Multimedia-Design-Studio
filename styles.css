@@ -51,5 +51,19 @@ body { font-family: 'Barlow', sans-serif; }
 
     
 }
+@keyframes testing4{
+    from {margin-left: 95%;}
+    to {margin-left: 5%;}
+}
+
+.car {
+    background-color: white;
+    animation-name: testing4;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+
+    
+}
 
 
