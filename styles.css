@@ -4,7 +4,7 @@ body { font-family: 'Barlow', sans-serif; }
     to {background-color: rgb(139, 224, 139);}
 }
 
-h3 {
+h3, h4 {
     width: 100%;
     height: 100%;
     background-color: white;
