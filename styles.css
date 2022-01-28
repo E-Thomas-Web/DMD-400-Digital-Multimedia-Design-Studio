@@ -9,7 +9,7 @@ h3 {
     height: 100%;
     background-color: white;
     animation-name: testing1;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: reverse;
 
@@ -26,10 +26,10 @@ h2 {
     height: 100%;
     background-color: white;
     animation-name: testing2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: reverse;
-    animation-delay: 2s;
+    animation-delay: 1s;
 
     
 }
@@ -44,10 +44,10 @@ h1 {
     height: 100%;
     background-color: white;
     animation-name: testing3;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: reverse;
-    animation-delay: 4s;
+    animation-delay: 2s;
 
     
 }
