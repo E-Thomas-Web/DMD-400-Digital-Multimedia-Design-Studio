@@ -44,7 +44,7 @@ body { font-family: 'Barlow', sans-serif; }
     height: 100%;
     background-color: white;
     animation-name: testing3;
-    animation-duration: 1s;
+    animation-duration: 15s;
     animation-iteration-count: 1;
     animation-direction: reverse;
     animation-delay: 2s;
