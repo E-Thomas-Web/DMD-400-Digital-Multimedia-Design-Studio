@@ -4,13 +4,13 @@ body { font-family: 'Barlow', sans-serif; }
     to {background-color: rgb(139, 224, 139);}
 }
 
-h3, h4 {
+h3 {
     width: 100%;
     height: 100%;
     background-color: white;
     animation-name: testing1;
     animation-duration: 2s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 1;
     animation-direction: reverse;
 
     
@@ -27,7 +27,7 @@ h2 {
     background-color: white;
     animation-name: testing2;
     animation-duration: 2s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 1;
     animation-direction: reverse;
     animation-delay: 2s;
 
@@ -45,7 +45,7 @@ h1 {
     background-color: white;
     animation-name: testing3;
     animation-duration: 2s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 1;
     animation-direction: reverse;
     animation-delay: 4s;
 
