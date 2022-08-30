@@ -1,2 +1,2 @@
-# DART206-Website
+# DMD-400-Digital-Multimedia-Design-Studio
 Website
