@@ -1,6 +1,29 @@
 body { font-family: 'Barlow', sans-serif; }
 
 .title {
-align-content: center;
-
+      text-align: left;
+      font-size: clamp(30px,3vw,2px);
+      text-decoration: none;
+      color: inherit;
+	padding-left: 1vw;
+	padding-top: 2vw;
 }
+
+.menu {
+      text-align: center;
+      font-size: 25px;
+      text-decoration: none;
+      color: inherit;
+	padding-right: 5px;
+	padding-left: 5px;
+	word-spacing: 20px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	word-spacing: 5px;
+	width: 100%;
+	test-align: center;
+}
+
